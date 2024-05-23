@@ -1,6 +1,15 @@
 # PetConnect CRM
 
-<img src="logo.png" alt="Logo" width="100" height="100">
+<p align="center">
+  <img src="logo.png" alt="Logo" width="140" height="140">
+</p>
+
+<p align="center">
+  <a href="https://opensource.org/licenses/MIT"><img src="https://img.shields.io/badge/License-MIT-red.svg" alt="License: MIT"></a>
+  <a href="https://github.com/Florida2DAM/pfc-23-24-DavidHervas12/tag/v1.0.0"><img src="https://img.shields.io/badge/Version-1.0.0-green.svg" alt="Version"></a>
+  <a href="mailto:david.hervas456@gmail.com"><img src="https://img.shields.io/badge/Email-david.hervas456@gmail.com-blue" alt="Email"></a>
+  <a href="https://github.com/DavidHervas12"><img src="https://img.shields.io/badge/GitHub-DavidHervas12-blue.svg" alt="GitHub"></a>
+</p>
 
 ## Descripción
 
@@ -71,13 +80,8 @@ Mi idea es proporcionar una mayor eficiencia mediante la centralización de los 
 
 La aplicación estará disponible en `http://localhost:8000`.
 
-## Licencia
+## Usuario de prueba
 
-Este proyecto está licenciado bajo la Licencia MIT. Consulta el archivo [LICENSE](LICENSE) para más detalles.
-
-## Contacto
-
-Si tienes alguna pregunta o sugerencia, no dudes en ponerte en contacto conmigo:
-
-- **Email**: david.hervas456@gmail.com
-- **GitHub**: [DavidHervas12](https://github.com/DavidHervas12)
+| Email              | Contraseña   |
+|--------------------|--------------|
+| dhervas456@gmail.com | 12345678   |
