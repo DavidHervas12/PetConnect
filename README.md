@@ -13,40 +13,36 @@
 
 ## Descripción
 
-Mi proyecto consiste en la creación de una aplicación web CRM, que ofrezca ayuda a las protectoras de animales a la hora de gestionar eficientemente las relaciones con sus clientes a través de una interfaz sencilla e intuitiva. Ofrece una plataforma centralizada para el seguimiento, administración y almacenamiento de contactos, listas, animales y adopciones.   
+My project involves creating a web-based CRM application that helps animal shelters efficiently manage their client relationships through a simple and intuitive interface. It offers a centralized platform for tracking, managing, and storing contacts, lists, animals, and adoptions.
 
-Las características principales de mi aplicación son las siguientes: la gestión de contactos permite el registro y almacenamiento de información detallada sobre donantes, voluntarios, adoptantes potenciales, veterinarios y otras personas importantes, así como el almacenamiento de contactos en listas para una mayor organización y segmentación. El registro de animales proporciona un registro detallado de animales en el refugio, incluyendo información sobre su nombre, tipo, peso, edad, estado de salud, etc. Además, se incluye el registro de solicitudes de adopción y el seguimiento del proceso de adopción.   
+The main features of my application include contact management, which allows for the registration and storage of detailed information about donors, volunteers, potential adopters, veterinarians, and other important individuals. It also allows storing contacts in lists for better organization and segmentation. Animal registration provides detailed records of animals in the shelter, including information about their name, type, weight, age, health status, etc. Additionally, it includes the registration of adoption applications and tracking the adoption process.
 
-Mi idea es proporcionar una mayor eficiencia mediante la centralización de los datos y procesos relacionados con la gestión de la protectora de animales. Otra ventaja es la mejora organizativa mediante el seguimiento de animales y contactos. Finalmente, un gran avance en la transparencia proporcionando información detallada sobre las adopciones.
+My idea is to provide greater efficiency by centralizing data and processes related to managing the animal shelter. Another advantage is organizational improvement by tracking animals and contacts. Finally, there is a significant advancement in transparency by providing detailed information about adoptions.
 
-## Tecnologías Utilizadas
+## Technologies Used
 
 - **Frontend**: Laravel Blade, html, tailwind css
 - **Backend**: Laravel, php
 - **Base de Datos**: MySQL
 - **Despliegue**: Railway
 
-## Instalación
+## Installation
 
-1. Clona el repositorio:
+1. Clone the repository:
     ```bash
     git clone https://github.com/Florida2DAM/pfc-23-24-DavidHervas12.git
     ```
-2. Cambia a la rama `src` (donde está el código de la aplicación):
-    ```bash
-    git checkout src
-    ```
-3. Instala las dependencias de PHP usando Composer:
+3. Install PHP dependencies using Composer:
     ```bash
     composer install
     ```
-4. Instala las dependencias de Node.js:
+4. Install Node.js dependencies:
     ```bash
     npm install
     ```
-5. Crea una base de datos MySQL con el nombre petconnect.
+5. Create a MySQL database named petconnect.
 
-6. Cambia los datos de la base de datos en el .env:
+6. Update the database credentials in the `.env` file:
     ```plaintext
     DB_CONNECTION=mysql
     DB_HOST=127.0.0.1
@@ -56,32 +52,32 @@ Mi idea es proporcionar una mayor eficiencia mediante la centralización de los 
     DB_PASSWORD=
     ```
 
-7. Ejecuta las migraciones:
+7. Run the migrations:
     ```bash
     php artisan migrate:fresh
     ```
     
-8. Rellena la base de datos
+8. Seed the database:
     ```bash
     php artisan db:seed
     ```
 
-## Uso
+## Usage
 
-1. Inicia el servidor backend:
+1. Start the backend server:
     ```bash
     php artisan serve
     ```
     
-2. Compila los assets del frontend:
+2. Compile the frontend assets:
     ```bash
     npm run dev
     ```
 
-La aplicación estará disponible en `http://localhost:8000`.
+The application will be available at http://localhost:8000.
 
-## Usuario de prueba
+## Test User
 
-| Email              | Contraseña   |
+| Email              | Password     |
 |--------------------|--------------|
 | dhervas456@gmail.com | 12345678   |
